@@ -1,0 +1,30 @@
+{
+  "name": "my-employee-tracker",
+  "version": "1.0.0",
+  "description": "a simple application to track employees using mySQL and node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reganmurray22/Employee-Management.git"
+  },
+  "keywords": [
+    "mySQL",
+    "node.js"
+  ],
+  "author": "Regan Murray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reganmurray22/Employee-Management/issues"
+  },
+  "homepage": "https://github.com/reganmurray22/Employee-Management#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "mysql2": "^2.2.5",
+    "util": "^0.12.3"
+  }
+}
